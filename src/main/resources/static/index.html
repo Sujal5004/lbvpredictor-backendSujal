@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LBV Predictor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen p-4">
+  <div class="max-w-6xl mx-auto bg-white p-6 rounded shadow-md grid grid-cols-1 md:grid-cols-2 gap-6">
+
+    <!-- Input Section -->
+    <div class="space-y-4">
+      <h1 class="text-2xl font-bold text-blue-800 mb-2">Predict Laminar Burning Velocity</h1>
+
+      <input type="number" id="temperature" placeholder="Temperature (K)" min="298" max="750" step="1" class="w-full p-2 border rounded">
+      <input type="number" id="pressure" placeholder="Pressure (atm)" class="w-full p-2 border rounded">
+      <input type="number" id="equivalenceRatio" placeholder="Equivalence Ratio (ϕ)" class="w-full p-2 border rounded">
+
+      <select id="fuelType" class="w-full p-2 border rounded">
+        <option value="">Select Fuel</option>
+        <option>premixed Propane Air</option>
+        <option>NH3/H2+Air 0.3</option>
+        <option>NH3/H2+Air 0.4</option>
+        <option>N-Decane+Air</option>
+        <option>PB-Amonia 0.1</option>
+        <option>PB-Amonia 0.2</option>
+        <option>PB-Amonia 0.3</option>
+      </select>
+
+      <div class="flex gap-4">
+        <button id="predictBtn" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Predict</button>
+        <button onclick="clearFields()" class="bg-gray-300 px-4 py-2 rounded hover:bg-gray-400">Clear</button>
+      </div>
+
+      <div id="result" class="bg-blue-50 p-4 rounded text-blue-900 font-medium">Prediction will appear here.</div>
+    </div>
+
+    <!-- History and Saved Section -->
+    <div class="space-y-4">
+      <h2 class="text-xl font-semibold text-gray-700">Prediction History</h2>
+      <ul id="historyList" class="bg-gray-100 p-3 rounded h-40 overflow-y-auto"></ul>
+
+      <h2 class="text-xl font-semibold text-gray-700">Saved Predictions</h2>
+      <ul id="savedList" class="bg-gray-100 p-3 rounded h-40 overflow-y-auto"></ul>
+
+      <div class="flex gap-3">
+        <button onclick="savePrediction()" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Save</button>
+        <button onclick="downloadPredictions()" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Download Excel</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const historyList = document.getElementById("historyList");
+    const savedList = document.getElementById("savedList");
+    let lastPrediction = "";
+
+    document.getElementById("predictBtn").addEventListener("click", function () {
+      const temp = document.getElementById("temperature").value;
+      const pressure = document.getElementById("pressure").value;
+      const fuel = document.getElementById("fuelType").value;
+      const ratio = document.getElementById("equivalenceRatio").value;
+
+      const url = new URL("http://localhost:8082/api/lbv/predict");
+      url.searchParams.append("fuelType", fuel);
+      url.searchParams.append("temperature", temp);
+      url.searchParams.append("pressure", pressure);
+      url.searchParams.append("equivalenceRatio", ratio);
+
+      fetch(url)
+        .then(response => {
+          if (!response.ok) throw new Error("Prediction failed");
+          return response.text();
+        })
+        .then(predictedLBV => {
+          const resultText = `Predicted LBV: ${parseFloat(predictedLBV).toFixed(2)} cm/s`;
+          document.getElementById("result").innerText = resultText;
+          lastPrediction = `${fuel} | T=${temp}, P=${pressure}, Phi=${ratio} ➜ LBV=${predictedLBV}`;
+          const li = document.createElement("li");
+          li.textContent = lastPrediction;
+          historyList.prepend(li);
+        })
+        .catch(error => {
+          alert("Error during prediction. Is your backend running?");
+          console.error(error);
+        });
+    });
+
+    function clearFields() {
+      document.getElementById("temperature").value = "";
+      document.getElementById("pressure").value = "";
+      document.getElementById("equivalenceRatio").value = "";
+      document.getElementById("fuelType").value = "";
+      document.getElementById("result").innerText = "Prediction will appear here.";
+    }
+
+    function savePrediction() {
+      if (!lastPrediction) return;
+      const li = document.createElement("li");
+      li.textContent = lastPrediction;
+      savedList.prepend(li);
+    }
+
+    function downloadPredictions() {
+      let content = "Fuel Type,Temperature,Pressure,Equivalence Ratio,Predicted LBV\n";
+      const rows = savedList.querySelectorAll("li");
+      rows.forEach(row => {
+        const parts = row.textContent.split(/[|=➜]/);
+        if (parts.length >= 5) {
+          content += `${parts[0].trim()},${parts[1].replace('T','').trim()},${parts[2].replace('P','').trim()},${parts[3].replace('Phi','').trim()},${parts[4].replace('LBV','').trim()}\n`;
+        }
+      });
+      const blob = new Blob([content], { type: "text/csv" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "saved_predictions.csv";
+      a.click();
+    }
+  </script>
+</body>
+</html>
+

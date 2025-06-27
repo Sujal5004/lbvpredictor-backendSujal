@@ -1,0 +1,564 @@
+﻿Temperature,Pressure,Fuel type,EquivalenceRatio,LBV
+300,1,premixed Propane Air,0.7,21.608
+300,1,premixed Propane Air,0.8,29.608
+300,1,premixed Propane Air,1.0,37.81
+300,1,premixed Propane Air,1.1,39.734
+300,1,premixed Propane Air,1.2,37.709
+300,1,premixed Propane Air,1.3,31.633
+300,2,premixed Propane Air,0.7,18.165
+300,2,premixed Propane Air,0.8,24.848
+300,2,premixed Propane Air,0.9,28.291
+300,2,premixed Propane Air,1.1,31.43
+300,2,premixed Propane Air,1.2,28.089
+300,2,premixed Propane Air,1.3,22.62
+300,3,premixed Propane Air,0.7,13.987
+300,3,premixed Propane Air,0.8,19.62
+300,3,premixed Propane Air,0.9,23.481
+300,3,premixed Propane Air,1.0,25.759
+300,3,premixed Propane Air,1.1,26.519
+300,3,premixed Propane Air,1.3,17.595
+300,4,premixed Propane Air,0.7,14.316
+300,4,premixed Propane Air,0.9,23.43
+300,4,premixed Propane Air,1.0,25.861
+300,4,premixed Propane Air,1.1,26.063
+300,4,premixed Propane Air,1.2,23.025
+300,4,premixed Propane Air,1.3,17.962
+300,5,premixed Propane Air,0.7,11.329
+300,5,premixed Propane Air,0.8,16.519
+300,5,premixed Propane Air,0.9,19.937
+300,5,premixed Propane Air,1.0,22.658
+300,5,premixed Propane Air,1.1,23.354
+300,5,premixed Propane Air,1.3,14.241
+600,1,premixed Propane Air,0.7,90.254
+600,1,premixed Propane Air,0.8,107.005
+600,1,premixed Propane Air,0.9,117.919
+600,1,premixed Propane Air,1.0,123.249
+600,1,premixed Propane Air,1.1,126.548
+600,1,premixed Propane Air,1.2,127.563
+600,2,premixed Propane Air,0.7,79.086
+600,2,premixed Propane Air,0.8,92.03
+600,2,premixed Propane Air,0.9,97.868
+600,2,premixed Propane Air,1.0,104.721
+600,2,premixed Propane Air,1.1,105.482
+600,2,premixed Propane Air,1.2,100.914
+600,2,premixed Propane Air,1.3,89.492
+600,3,premixed Propane Air,0.7,74.467
+600,3,premixed Propane Air,0.8,87.259
+600,3,premixed Propane Air,0.9,96.853
+600,3,premixed Propane Air,1.0,102.716
+600,3,premixed Propane Air,1.1,105.914
+600,3,premixed Propane Air,1.2,102.183
+600,3,premixed Propane Air,1.3,86.015
+600,4,premixed Propane Air,0.7,63.096
+600,4,premixed Propane Air,0.8,76.041
+600,4,premixed Propane Air,0.9,84.924
+600,4,premixed Propane Air,1.0,89.746
+600,4,premixed Propane Air,1.2,87.462
+600,4,premixed Propane Air,1.3,77.056
+600,5,premixed Propane Air,0.7,61.497
+600,5,premixed Propane Air,0.8,76.777
+600,5,premixed Propane Air,0.9,86.015
+600,5,premixed Propane Air,1.0,94.01
+600,5,premixed Propane Air,1.1,95.076
+600,5,premixed Propane Air,1.2,88.503
+600,5,premixed Propane Air,1.3,74.112
+368,1,premixed Propane Air,1,58.75
+382,1,premixed Propane Air,1,63.625
+398,1,premixed Propane Air,1,61.75
+414,1,premixed Propane Air,1,72.625
+424,1,premixed Propane Air,1,73.75
+443,1,premixed Propane Air,1,76.75
+482,1,premixed Propane Air,1,92.875
+503,1,premixed Propane Air,1,103
+523,1,premixed Propane Air,1,107.5
+546,1,premixed Propane Air,1,112.375
+560,1,premixed Propane Air,1,119.125
+576,1,premixed Propane Air,1,129.25
+592,1,premixed Propane Air,1,132.25
+329,2,premixed Propane Air,0.7,35.875
+333,2,premixed Propane Air,0.7,35.875
+338,2,premixed Propane Air,0.7,38.875
+340,2,premixed Propane Air,0.7,43.75
+349,2,premixed Propane Air,0.7,49
+356,2,premixed Propane Air,0.7,56.125
+358,2,premixed Propane Air,0.7,53.5
+363,2,premixed Propane Air,0.7,62.5
+366,2,premixed Propane Air,0.7,64.75
+368,2,premixed Propane Air,0.7,64.75
+374,2,premixed Propane Air,0.7,73.375
+380,2,premixed Propane Air,0.7,74.875
+384,2,premixed Propane Air,0.7,80.5
+390,2,premixed Propane Air,0.7,92.875
+396,2,premixed Propane Air,0.7,99.25
+317,2,premixed Propane Air,1,44.875
+321,2,premixed Propane Air,1,44.125
+326,2,premixed Propane Air,1,50.125
+337,2,premixed Propane Air,1,62.125
+341,2,premixed Propane Air,1,66.625
+347,2,premixed Propane Air,1,76.375
+351,2,premixed Propane Air,1,74.125
+357,2,premixed Propane Air,1,81.25
+359,2,premixed Propane Air,1,83.125
+366,2,premixed Propane Air,1,89.125
+373,2,premixed Propane Air,1,100.375
+380,2,premixed Propane Air,1,104.875
+384,2,premixed Propane Air,1,113.5
+300,1,NH3/H2+Air 0.3,0.7,0.226
+300,1,NH3/H2+Air 0.3,0.8,0.249
+300,1,NH3/H2+Air 0.3,0.9,0.292
+300,1,NH3/H2+Air 0.3,1.0,0.338
+300,1,NH3/H2+Air 0.3,1.2,0.348
+473,1,NH3/H2+Air 0.3,0.8,0.473
+473,1,NH3/H2+Air 0.3,0.9,0.51
+473,1,NH3/H2+Air 0.3,1.0,0.581
+473,1,NH3/H2+Air 0.3,1.1,0.589
+473,1,NH3/H2+Air 0.3,1.3,0.508
+473,1,NH3/H2+Air 0.3,1.4,0.473
+650,1,NH3/H2+Air 0.3,0.7,0.593
+650,1,NH3/H2+Air 0.3,0.8,0.679
+650,1,NH3/H2+Air 0.3,0.9,0.873
+650,1,NH3/H2+Air 0.3,1.0,0.927
+650,1,NH3/H2+Air 0.3,1.1,0.959
+300,1,NH3/H2+Air 0.4,0.7,0.116
+300,1,NH3/H2+Air 0.4,0.8,0.181
+300,1,NH3/H2+Air 0.4,0.9,0.297
+300,1,NH3/H2+Air 0.4,1.0,0.31
+300,1,NH3/H2+Air 0.4,1.1,0.346
+300,1,NH3/H2+Air 0.4,1.2,0.31
+473,1,NH3/H2+Air 0.4,0.7,0.352
+473,1,NH3/H2+Air 0.4,0.8,0.482
+473,1,NH3/H2+Air 0.4,1.0,0.727
+473,1,NH3/H2+Air 0.4,1.1,0.782
+473,1,NH3/H2+Air 0.4,1.2,0.708
+650,1,NH3/H2+Air 0.4,0.7,0.808
+650,1,NH3/H2+Air 0.4,0.8,0.924
+650,1,NH3/H2+Air 0.4,0.9,1.17
+650,1,NH3/H2+Air 0.4,1.0,1.209
+650,1,NH3/H2+Air 0.4,1.2,1.125
+477,1,NH3/H2+Air 0.3,0.8,0.3
+491,1,NH3/H2+Air 0.3,0.8,0.319
+520,1,NH3/H2+Air 0.3,0.8,0.366
+553,1,NH3/H2+Air 0.3,0.8,0.43
+589,1,NH3/H2+Air 0.3,0.8,0.482
+615,1,NH3/H2+Air 0.3,0.8,0.532
+648,1,NH3/H2+Air 0.3,0.8,0.588
+671,1,NH3/H2+Air 0.3,0.8,0.638
+691,1,NH3/H2+Air 0.3,0.8,0.691
+726,1,NH3/H2+Air 0.3,0.8,0.773
+401,1,NH3/H2+Air 0.4,0.8,0.348
+450,1,NH3/H2+Air 0.4,0.8,0.437
+500,1,NH3/H2+Air 0.4,0.8,0.551
+513,1,NH3/H2+Air 0.4,0.8,0.569
+548,1,NH3/H2+Air 0.4,0.8,0.662
+557,1,NH3/H2+Air 0.4,0.8,0.691
+569,1,NH3/H2+Air 0.4,0.8,0.722
+589,1,NH3/H2+Air 0.4,0.8,0.77
+601,1,NH3/H2+Air 0.4,0.8,0.807
+613,1,NH3/H2+Air 0.4,0.8,0.844
+626,1,NH3/H2+Air 0.4,0.8,0.881
+634,1,NH3/H2+Air 0.4,0.8,0.907
+648,1,NH3/H2+Air 0.4,0.8,0.955
+653,1,NH3/H2+Air 0.4,0.8,0.97
+674,1,NH3/H2+Air 0.4,0.8,1.047
+373,1,NH3/H2+Air 0.3,1,0.299
+423,1,NH3/H2+Air 0.3,1,0.392
+449,1,NH3/H2+Air 0.3,1,0.441
+489,1,NH3/H2+Air 0.3,1,0.527
+519,1,NH3/H2+Air 0.3,1,0.6
+537,1,NH3/H2+Air 0.3,1,0.633
+564,1,NH3/H2+Air 0.3,1,0.686
+589,1,NH3/H2+Air 0.3,1,0.729
+602,1,NH3/H2+Air 0.3,1,0.762
+648,1,NH3/H2+Air 0.3,1,0.884
+662,1,NH3/H2+Air 0.3,1,0.911
+691,1,NH3/H2+Air 0.3,1,0.993
+368,1,NH3/H2+Air 0.4,1,0.458
+381,1,NH3/H2+Air 0.4,1,0.481
+407,1,NH3/H2+Air 0.4,1,0.547
+423,1,NH3/H2+Air 0.4,1,0.593
+450,1,NH3/H2+Air 0.4,1,0.669
+464,1,NH3/H2+Air 0.4,1,0.716
+495,1,NH3/H2+Air 0.4,1,0.808
+521,1,NH3/H2+Air 0.4,1,0.894
+542,1,NH3/H2+Air 0.4,1,0.964
+557,1,NH3/H2+Air 0.4,1,1.01
+575,1,NH3/H2+Air 0.4,1,1.066
+605,1,NH3/H2+Air 0.4,1,1.159
+621,1,NH3/H2+Air 0.4,1,1.218
+642,1,NH3/H2+Air 0.4,1,1.298
+393,1,NH3/H2+Air 0.3,1.2,0.346
+405,1,NH3/H2+Air 0.3,1.2,0.385
+430,1,NH3/H2+Air 0.3,1.2,0.439
+443,1,NH3/H2+Air 0.3,1.2,0.445
+461,1,NH3/H2+Air 0.3,1.2,0.49
+503,1,NH3/H2+Air 0.3,1.2,0.549
+529,1,NH3/H2+Air 0.3,1.2,0.597
+542,1,NH3/H2+Air 0.3,1.2,0.657
+560,1,NH3/H2+Air 0.3,1.2,0.71
+581,1,NH3/H2+Air 0.3,1.2,0.758
+596,1,NH3/H2+Air 0.3,1.2,0.797
+625,1,NH3/H2+Air 0.3,1.2,0.86
+649,1,NH3/H2+Air 0.3,1.2,0.928
+368,1,NH3/H2+Air 0.4,1.2,0.448
+383,1,NH3/H2+Air 0.4,1.2,0.481
+397,1,NH3/H2+Air 0.4,1.2,0.516
+427,1,NH3/H2+Air 0.4,1.2,0.57
+439,1,NH3/H2+Air 0.4,1.2,0.609
+470,1,NH3/H2+Air 0.4,1.2,0.707
+485,1,NH3/H2+Air 0.4,1.2,0.746
+504,1,NH3/H2+Air 0.4,1.2,0.785
+526,1,NH3/H2+Air 0.4,1.2,0.857
+538,1,NH3/H2+Air 0.4,1.2,0.899
+543,1,NH3/H2+Air 0.4,1.2,0.916
+566,1,NH3/H2+Air 0.4,1.2,0.991
+593,1,NH3/H2+Air 0.4,1.2,1.081
+623,1,NH3/H2+Air 0.4,1.2,1.236
+338,1,N-Decane+Air,0.7,27.677
+338,1,N-Decane+Air,0.8,35.966
+338,1,N-Decane+Air,0.9,42.792
+338,1,N-Decane+Air,1.0,47.18
+338,1,N-Decane+Air,1.1,49.455
+338,1,N-Decane+Air,1.3,38.403
+338,1,N-Decane+Air,1.4,28.977
+470,1,N-Decane+Air,0.7,53.031
+470,1,N-Decane+Air,0.9,75.459
+470,1,N-Decane+Air,1.0,82.61
+470,1,N-Decane+Air,1.1,85.373
+470,1,N-Decane+Air,1.2,80.985
+470,1,N-Decane+Air,1.3,70.421
+470,1,N-Decane+Air,1.4,57.906
+360,1,N-Decane+Air,0.7,31.396
+360,1,N-Decane+Air,0.8,40.604
+360,1,N-Decane+Air,0.9,47.849
+360,1,N-Decane+Air,1.0,52.906
+360,1,N-Decane+Air,1.1,54.943
+360,1,N-Decane+Air,1.2,51.245
+360,1,N-Decane+Air,1.4,33.434
+400,1,N-Decane+Air,0.7,38.674
+400,1,N-Decane+Air,0.8,49.309
+400,1,N-Decane+Air,0.9,57.182
+400,1,N-Decane+Air,1.0,63.26
+400,1,N-Decane+Air,1.2,61.464
+400,1,N-Decane+Air,1.3,52.348
+400,1,N-Decane+Air,1.4,41.436
+500,1,N-Decane+Air,0.7,42.844
+500,1,N-Decane+Air,0.8,52.481
+500,1,N-Decane+Air,0.9,59.828
+500,1,N-Decane+Air,1.1,65.172
+500,1,N-Decane+Air,1.2,67.748
+500,1,N-Decane+Air,1.4,56.202
+500,1,N-Decane+Air,1.5,46.947
+610,1,N-Decane+Air,0.7,89.402
+610,1,N-Decane+Air,0.8,105.584
+610,1,N-Decane+Air,0.9,118.12
+610,1,N-Decane+Air,1.0,127.464
+610,1,N-Decane+Air,1.1,132.023
+610,1,N-Decane+Air,1.2,126.781
+610,1,N-Decane+Air,1.3,113.333
+650,1,N-Decane+Air,0.7,101.046
+650,1,N-Decane+Air,0.8,118.324
+650,1,N-Decane+Air,0.9,131.991
+650,1,N-Decane+Air,1.0,141.791
+650,1,N-Decane+Air,1.1,147.206
+650,1,N-Decane+Air,1.3,127.607
+650,1,N-Decane+Air,1.4,112.908
+336,1,N-Decane+Air,1,47.267
+360,1,N-Decane+Air,1,52.703
+399,1,N-Decane+Air,1,62.936
+428,1,N-Decane+Air,1,69.012
+461,1,N-Decane+Air,1,78.285
+470,1,N-Decane+Air,1,82.442
+500,1,N-Decane+Air,1,93.953
+522,1,N-Decane+Air,1,101.308
+560,1,N-Decane+Air,1,108.663
+570,1,N-Decane+Air,1,114.099
+593,1,N-Decane+Air,1,118.895
+611,1,N-Decane+Air,1,127.529
+335,1,N-Decane+Air,0.7,27.595
+360,1,N-Decane+Air,0.7,31.531
+399,1,N-Decane+Air,0.7,38.615
+426,1,N-Decane+Air,0.7,43.863
+441,1,N-Decane+Air,0.7,46.749
+461,1,N-Decane+Air,0.7,50.16
+469,1,N-Decane+Air,0.7,52.522
+477,1,N-Decane+Air,0.7,53.834
+489,1,N-Decane+Air,0.7,57.77
+503,1,N-Decane+Air,0.7,61.181
+524,1,N-Decane+Air,0.7,67.741
+536,1,N-Decane+Air,0.7,72.464
+552,1,N-Decane+Air,0.7,74.3
+568,1,N-Decane+Air,0.7,75.875
+583,1,N-Decane+Air,0.7,79.548
+605,1,N-Decane+Air,0.7,86.37
+610,1,N-Decane+Air,0.7,90.569
+337,1,N-Decane+Air,1.4,29.157
+360,1,N-Decane+Air,1.4,33.343
+400,1,N-Decane+Air,1.4,41.715
+417,1,N-Decane+Air,1.4,45.116
+439,1,N-Decane+Air,1.4,49.826
+461,1,N-Decane+Air,1.4,54.273
+471,1,N-Decane+Air,1.4,57.413
+480,1,N-Decane+Air,1.4,61.076
+494,1,N-Decane+Air,1.4,63.43
+502,1,N-Decane+Air,1.4,67.616
+517,1,N-Decane+Air,1.4,71.802
+536,1,N-Decane+Air,1.4,77.035
+560,1,N-Decane+Air,1.4,81.221
+600,1,N-Decane+Air,1.4,94.302
+611,1,N-Decane+Air,1.4,99.797
+300,1,PB-Amonia 0.1,0.7,19.731
+300,1,PB-Amonia 0.1,0.8,28.5
+300,1,PB-Amonia 0.1,0.9,34.731
+300,1,PB-Amonia 0.1,1.0,38.423
+300,1,PB-Amonia 0.1,1.1,39.462
+300,1,PB-Amonia 0.1,1.2,34.962
+300,1,PB-Amonia 0.1,1.3,24
+300,1,PB-Amonia 0.1,1.4,15.462
+300,1,PB-Amonia 0.2,0.7,16.269
+300,1,PB-Amonia 0.2,0.8,23.077
+300,1,PB-Amonia 0.2,0.9,28.846
+300,1,PB-Amonia 0.2,1.0,32.538
+300,1,PB-Amonia 0.2,1.1,33.692
+300,1,PB-Amonia 0.2,1.2,30.808
+300,1,PB-Amonia 0.2,1.3,23.423
+300,1,PB-Amonia 0.2,1.4,16.154
+300,1,PB-Amonia 0.3,0.8,20.192
+300,1,PB-Amonia 0.3,0.9,26.192
+300,1,PB-Amonia 0.3,1.0,29.885
+300,1,PB-Amonia 0.3,1.1,30.115
+300,1,PB-Amonia 0.3,1.2,26.192
+300,1,PB-Amonia 0.3,1.3,18.115
+300,1,PB-Amonia 0.3,1.4,13.5
+300,5,PB-Amonia 0.1,0.7,8.192
+300,5,PB-Amonia 0.1,0.8,13.038
+300,5,PB-Amonia 0.1,0.9,17.423
+300,5,PB-Amonia 0.1,1.0,19.5
+300,5,PB-Amonia 0.1,1.1,20.423
+300,5,PB-Amonia 0.1,1.2,16.154
+300,5,PB-Amonia 0.1,1.3,10.846
+300,5,PB-Amonia 0.1,1.4,8.769
+300,5,PB-Amonia 0.2,0.7,6.923
+300,5,PB-Amonia 0.2,0.8,11.308
+300,5,PB-Amonia 0.2,0.9,15.231
+300,5,PB-Amonia 0.2,1.0,16.154
+300,5,PB-Amonia 0.2,1.1,17.192
+300,5,PB-Amonia 0.2,1.2,13.154
+300,5,PB-Amonia 0.2,1.3,9.692
+300,5,PB-Amonia 0.2,1.4,7.615
+300,5,PB-Amonia 0.3,0.7,6.231
+300,5,PB-Amonia 0.3,0.8,9.692
+300,5,PB-Amonia 0.3,0.9,12.808
+300,5,PB-Amonia 0.3,1.0,14.769
+300,5,PB-Amonia 0.3,1.1,14.538
+300,5,PB-Amonia 0.3,1.2,11.654
+300,5,PB-Amonia 0.3,1.3,9.231
+300,5,PB-Amonia 0.3,1.4,7.5
+750,1,PB-Amonia 0.1,0.7,152.129
+750,1,PB-Amonia 0.1,0.8,184.474
+750,1,PB-Amonia 0.1,0.9,200.647
+750,1,PB-Amonia 0.1,1.0,206.577
+750,1,PB-Amonia 0.1,1.1,194.178
+750,1,PB-Amonia 0.1,1.2,186.092
+750,1,PB-Amonia 0.1,1.3,176.927
+750,1,PB-Amonia 0.1,1.4,156.981
+750,1,PB-Amonia 0.2,0.7,135.957
+750,1,PB-Amonia 0.2,0.8,151.051
+750,1,PB-Amonia 0.2,0.9,168.302
+750,1,PB-Amonia 0.2,1.0,182.857
+750,1,PB-Amonia 0.2,1.1,175.31
+750,1,PB-Amonia 0.2,1.3,150.512
+750,1,PB-Amonia 0.2,1.4,125.714
+750,1,PB-Amonia 0.3,0.7,124.097
+750,1,PB-Amonia 0.3,0.8,136.496
+750,1,PB-Amonia 0.3,0.9,149.434
+750,1,PB-Amonia 0.3,1.0,165.606
+750,1,PB-Amonia 0.3,1.1,153.747
+750,1,PB-Amonia 0.3,1.2,143.504
+750,1,PB-Amonia 0.3,1.3,135.418
+750,1,PB-Amonia 0.3,1.4,120.323
+750,5,PB-Amonia 0.1,0.7,83.127
+750,5,PB-Amonia 0.1,0.8,102.534
+750,5,PB-Amonia 0.1,0.9,116.011
+750,5,PB-Amonia 0.1,1.0,126.792
+750,5,PB-Amonia 0.1,1.1,127.871
+750,5,PB-Amonia 0.1,1.2,118.167
+750,5,PB-Amonia 0.1,1.3,97.682
+750,5,PB-Amonia 0.1,1.4,71.267
+750,5,PB-Amonia 0.2,0.7,72.345
+750,5,PB-Amonia 0.2,0.8,90.135
+750,5,PB-Amonia 0.2,0.9,103.073
+750,5,PB-Amonia 0.2,1.0,108.464
+750,5,PB-Amonia 0.2,1.1,112.237
+750,5,PB-Amonia 0.2,1.2,101.995
+750,5,PB-Amonia 0.2,1.3,80.97
+750,5,PB-Amonia 0.2,1.4,65.337
+750,5,PB-Amonia 0.3,0.7,64.259
+750,5,PB-Amonia 0.3,0.8,78.814
+750,5,PB-Amonia 0.3,0.9,92.291
+750,5,PB-Amonia 0.3,1.0,98.76
+750,5,PB-Amonia 0.3,1.1,99.299
+750,5,PB-Amonia 0.3,1.2,87.978
+750,5,PB-Amonia 0.3,1.3,69.65
+750,5,PB-Amonia 0.3,1.4,58.868
+445,1,PB-Amonia 0.1,0.7,0.471
+466,1,PB-Amonia 0.1,0.7,0.519
+472,1,PB-Amonia 0.1,0.7,0.545
+494,1,PB-Amonia 0.1,0.7,0.597
+500,1,PB-Amonia 0.1,0.7,0.62
+517,1,PB-Amonia 0.1,0.7,0.671
+530,1,PB-Amonia 0.1,0.7,0.703
+536,1,PB-Amonia 0.1,0.7,0.723
+544,1,PB-Amonia 0.1,0.7,0.746
+553,1,PB-Amonia 0.1,0.7,0.769
+570,1,PB-Amonia 0.1,0.7,0.829
+601,1,PB-Amonia 0.1,0.7,0.953
+616,1,PB-Amonia 0.1,0.7,1.001
+631,1,PB-Amonia 0.1,0.7,1.053
+519,1,PB-Amonia 0.3,0.7,0.522
+550,1,PB-Amonia 0.3,0.7,0.597
+556,1,PB-Amonia 0.3,0.7,0.611
+573,1,PB-Amonia 0.3,0.7,0.657
+595,1,PB-Amonia 0.3,0.7,0.714
+614,1,PB-Amonia 0.3,0.7,0.772
+655,1,PB-Amonia 0.3,0.7,0.901
+679,1,PB-Amonia 0.3,0.7,0.976
+719,1,PB-Amonia 0.3,0.7,1.116
+737,1,PB-Amonia 0.3,0.7,1.182
+756,1,PB-Amonia 0.3,0.7,1.257
+470,5,PB-Amonia 0.1,0.7,0.255
+505,5,PB-Amonia 0.1,0.7,0.304
+518,5,PB-Amonia 0.1,0.7,0.327
+553,5,PB-Amonia 0.1,0.7,0.39
+591,5,PB-Amonia 0.1,0.7,0.453
+621,5,PB-Amonia 0.1,0.7,0.516
+650,5,PB-Amonia 0.1,0.7,0.582
+664,5,PB-Amonia 0.1,0.7,0.62
+684,5,PB-Amonia 0.1,0.7,0.663
+710,5,PB-Amonia 0.1,0.7,0.737
+733,5,PB-Amonia 0.1,0.7,0.789
+751,5,PB-Amonia 0.1,0.7,0.835
+491,5,PB-Amonia 0.3,0.7,0.267
+515,5,PB-Amonia 0.3,0.7,0.298
+536,5,PB-Amonia 0.3,0.7,0.33
+559,5,PB-Amonia 0.3,0.7,0.364
+581,5,PB-Amonia 0.3,0.7,0.399
+605,5,PB-Amonia 0.3,0.7,0.439
+624,5,PB-Amonia 0.3,0.7,0.471
+648,5,PB-Amonia 0.3,0.7,0.514
+668,5,PB-Amonia 0.3,0.7,0.554
+685,5,PB-Amonia 0.3,0.7,0.591
+695,5,PB-Amonia 0.3,0.7,0.611
+703,5,PB-Amonia 0.3,0.7,0.626
+718,5,PB-Amonia 0.3,0.7,0.663
+739,5,PB-Amonia 0.3,0.7,0.714
+750,5,PB-Amonia 0.3,0.7,0.735
+470,5,PB-Amonia 0.1,1,0.444
+483,5,PB-Amonia 0.1,1,0.491
+493,5,PB-Amonia 0.1,1,0.524
+504,5,PB-Amonia 0.1,1,0.56
+515,5,PB-Amonia 0.1,1,0.593
+523,5,PB-Amonia 0.1,1,0.623
+528,5,PB-Amonia 0.1,1,0.646
+534,5,PB-Amonia 0.1,1,0.687
+547,5,PB-Amonia 0.1,1,0.739
+560,5,PB-Amonia 0.1,1,0.792
+566,5,PB-Amonia 0.1,1,0.825
+579,5,PB-Amonia 0.1,1,0.863
+590,5,PB-Amonia 0.1,1,0.908
+602,5,PB-Amonia 0.1,1,0.963
+479,5,PB-Amonia 0.3,1,0.339
+509,5,PB-Amonia 0.3,1,0.417
+523,5,PB-Amonia 0.3,1,0.458
+548,5,PB-Amonia 0.3,1,0.527
+566,5,PB-Amonia 0.3,1,0.593
+595,5,PB-Amonia 0.3,1,0.684
+620,5,PB-Amonia 0.3,1,0.764
+632,5,PB-Amonia 0.3,1,0.811
+645,5,PB-Amonia 0.3,1,0.858
+650,5,PB-Amonia 0.3,1,0.88
+671,5,PB-Amonia 0.3,1,0.963
+691,5,PB-Amonia 0.3,1,1.043
+709,5,PB-Amonia 0.3,1,1.109
+718,5,PB-Amonia 0.3,1,1.15
+731,5,PB-Amonia 0.3,1,1.208
+591,5,PB-Amonia 0.1,1,0.455
+607,5,PB-Amonia 0.1,1,0.497
+649,5,PB-Amonia 0.1,1,0.618
+661,5,PB-Amonia 0.1,1,0.654
+677,5,PB-Amonia 0.1,1,0.709
+697,5,PB-Amonia 0.1,1,0.781
+709,5,PB-Amonia 0.1,1,0.817
+714,5,PB-Amonia 0.1,1,0.839
+718,5,PB-Amonia 0.1,1,0.836
+727,5,PB-Amonia 0.1,1,0.869
+743,5,PB-Amonia 0.1,1,0.932
+754,5,PB-Amonia 0.1,1,0.977
+514,5,PB-Amonia 0.3,1,0.166
+545,5,PB-Amonia 0.3,1,0.218
+555,5,PB-Amonia 0.3,1,0.234
+586,5,PB-Amonia 0.3,1,0.303
+618,5,PB-Amonia 0.3,1,0.372
+644,5,PB-Amonia 0.3,1,0.439
+668,5,PB-Amonia 0.3,1,0.491
+680,5,PB-Amonia 0.3,1,0.521
+698,5,PB-Amonia 0.3,1,0.571
+720,5,PB-Amonia 0.3,1,0.623
+740,5,PB-Amonia 0.3,1,0.684
+755,5,PB-Amonia 0.3,1,0.726
+485,1,PB-Amonia 0.1,1.3,0.691
+507,1,PB-Amonia 0.1,1.3,0.766
+526,1,PB-Amonia 0.1,1.3,0.826
+548,1,PB-Amonia 0.1,1.3,0.905
+568,1,PB-Amonia 0.1,1.3,0.975
+591,1,PB-Amonia 0.1,1.3,1.063
+608,1,PB-Amonia 0.1,1.3,1.135
+633,1,PB-Amonia 0.1,1.3,1.233
+636,1,PB-Amonia 0.1,1.3,1.249
+639,1,PB-Amonia 0.1,1.3,1.261
+650,1,PB-Amonia 0.1,1.3,1.309
+654,1,PB-Amonia 0.1,1.3,1.321
+669,1,PB-Amonia 0.1,1.3,1.394
+713,1,PB-Amonia 0.1,1.3,1.612
+751,1,PB-Amonia 0.1,1.3,1.794
+485,1,PB-Amonia 0.3,1.3,0.511
+507,1,PB-Amonia 0.3,1.3,0.558
+527,1,PB-Amonia 0.3,1.3,0.609
+548,1,PB-Amonia 0.3,1.3,0.662
+568,1,PB-Amonia 0.3,1.3,0.716
+590,1,PB-Amonia 0.3,1.3,0.773
+608,1,PB-Amonia 0.3,1.3,0.823
+632,1,PB-Amonia 0.3,1.3,0.893
+635,1,PB-Amonia 0.3,1.3,0.902
+639,1,PB-Amonia 0.3,1.3,0.918
+650,1,PB-Amonia 0.3,1.3,0.949
+653,1,PB-Amonia 0.3,1.3,0.962
+668,1,PB-Amonia 0.3,1.3,1.009
+690,1,PB-Amonia 0.3,1.3,1.079
+713,1,PB-Amonia 0.3,1.3,1.154
+751,1,PB-Amonia 0.3,1.3,1.296
+560,5,PB-Amonia 0.1,1.3,0.489
+578,5,PB-Amonia 0.1,1.3,0.524
+613,5,PB-Amonia 0.1,1.3,0.609
+627,5,PB-Amonia 0.1,1.3,0.64
+641,5,PB-Amonia 0.1,1.3,0.681
+660,5,PB-Amonia 0.1,1.3,0.732
+683,5,PB-Amonia 0.1,1.3,0.788
+698,5,PB-Amonia 0.1,1.3,0.836
+703,5,PB-Amonia 0.1,1.3,0.845
+706,5,PB-Amonia 0.1,1.3,0.858
+709,5,PB-Amonia 0.1,1.3,0.861
+718,5,PB-Amonia 0.1,1.3,0.886
+739,5,PB-Amonia 0.1,1.3,0.946
+750,5,PB-Amonia 0.1,1.3,0.981
+471,5,PB-Amonia 0.3,1.3,0.252
+505,5,PB-Amonia 0.3,1.3,0.293
+519,5,PB-Amonia 0.3,1.3,0.306
+554,5,PB-Amonia 0.3,1.3,0.356
+592,5,PB-Amonia 0.3,1.3,0.41
+622,5,PB-Amonia 0.3,1.3,0.46
+650,5,PB-Amonia 0.3,1.3,0.508
+664,5,PB-Amonia 0.3,1.3,0.533
+684,5,PB-Amonia 0.3,1.3,0.568
+711,5,PB-Amonia 0.3,1.3,0.618
+734,5,PB-Amonia 0.3,1.3,0.669
+750,5,PB-Amonia 0.3,1.3,0.697
